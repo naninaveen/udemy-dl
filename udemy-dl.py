@@ -28,6 +28,8 @@ import os
 import sys
 import argparse
 
+from gooey import Gooey
+
 import udemy
 from udemy.logger import logger
 from udemy.getpass import getpass
@@ -387,6 +389,7 @@ class Udemy(WebVtt2Srt, ProgressBar):
             print("")
 
 
+@Gooey
 def main():
     """main function"""
     sys.stdout.write(banner())
