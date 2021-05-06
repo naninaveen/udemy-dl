@@ -6,3 +6,4 @@ unidecode
 pyOpenSSL
 cloudscraper
 requests[security]
+Gooey
